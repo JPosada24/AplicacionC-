@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Memorama.exe" version="1.0.0.1" publicKeyToken="fbf833c615c8f620" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icons8-liga-de-leyendas-50 (1).ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Memorama" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Memorama.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Memorama.exe" size="1891856">
+      <assemblyIdentity name="Memorama" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>q6tp8gfdCELH9XfYf0btCeW895wTP1N/OXRZ32pWu64=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icons8-liga-de-leyendas-50 (1).ico" size="10462">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RxPhepgPkBJjJrZp79bPOHeDqkwYca9BaNmmdY1DnPE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Memorama.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-9V2E6ES\Julian Posada" issuerKeyHash="a260891b738eb9de221f7b3bbe8d8a44e2f07ba4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>DQ8+FmIYx6N7bhktZUbWL0rhyxnhjO3AOdtvoac/T6w=</DigestValue></Reference></SignedInfo><SignatureValue>Gi+ut/9rQLeMbeuL0X0eiuZLOJcb4BoC7mCRk8GQ6f0ilGO6Lgo8vVloEnj02Y4KFO1G6owAJABDUoLBsGnaECnRpMV0/S6uoHym54D1Em0vhbwdFvjOOckUfjVp2YQZku+FJtNWJm/VhnVmoIUrlaqYUtgxmoL9f9QLkNtVBa0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>7LwVlRdVHV+Tj0+ak+cb5nexfD1/AlARXvK302fFfzyxnTl5InAdyIPRWlRWkNHQ33qX2yl9b18UxGEbPAGW/btfHh5KAJblHdeyriwWvMp8f5Wknw3PivOi3RIJKFDwv3SLnRNORin11KToe6f9wAP6+Pp0sJU0s1IUtFhGmwk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ac4f3fa7a16fdb39c0ed8ce119cbe14a2fd646652d196e7ba3c71862163e0f0d" Description="" Url=""><as:assemblyIdentity name="Memorama.exe" version="1.0.0.1" publicKeyToken="fbf833c615c8f620" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-9V2E6ES\Julian Posada</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>0Cd+12mjPzXy+MpbM95YyfP4hiKthF+pK6ke+v6plkE=</DigestValue></Reference></SignedInfo><SignatureValue>mjRcWyg+9ROrMyaSb1Jys2seZoiMt22umiMR1jQjtSktJTtwOOX1MtvJzSHxVUZmeH5n7omR4EIvEBXJu03y5f1alX606hZXi8tRxjeKBrVwgKNjSvtexXAuOoTleCmPJ+DNX8C09R4oU6FfKc89AAZgDJZftya1dtLcDuQ9sBU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>7LwVlRdVHV+Tj0+ak+cb5nexfD1/AlARXvK302fFfzyxnTl5InAdyIPRWlRWkNHQ33qX2yl9b18UxGEbPAGW/btfHh5KAJblHdeyriwWvMp8f5Wknw3PivOi3RIJKFDwv3SLnRNORin11KToe6f9wAP6+Pp0sJU0s1IUtFhGmwk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQGMBMT450wrlITHJ5H3MSBzANBgkqhkiG9w0BAQsFADBFMUMwQQYDVQQDHjoARABFAFMASwBUAE8AUAAtADkAVgAyAEUANgBFAFMAXABKAHUAbABpAGEAbgAgAFAAbwBzAGEAZABhMB4XDTIwMTIwOTAwNTIwNloXDTIxMTIwOTA2NTIwNlowRTFDMEEGA1UEAx46AEQARQBTAEsAVABPAFAALQA5AFYAMgBFADYARQBTAFwASgB1AGwAaQBhAG4AIABQAG8AcwBhAGQAYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA7LwVlRdVHV+Tj0+ak+cb5nexfD1/AlARXvK302fFfzyxnTl5InAdyIPRWlRWkNHQ33qX2yl9b18UxGEbPAGW/btfHh5KAJblHdeyriwWvMp8f5Wknw3PivOi3RIJKFDwv3SLnRNORin11KToe6f9wAP6+Pp0sJU0s1IUtFhGmwkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQDmYJYrNqbcWyk2NXUkO3+P5FL6wdCBxVcy4zwPu81GVOGTGSVCzIiLVl9yBe3jp38IQ/v4Uz+Ai6xSAPO2SIcNciEP6tLa8O/COMi2fOHq4Ie2+M3UMKTuNTelBWuuGLf9abBeORZUMmZitZp5mY+E4Z2sC2M/oUtGI9Rb3iTXzg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

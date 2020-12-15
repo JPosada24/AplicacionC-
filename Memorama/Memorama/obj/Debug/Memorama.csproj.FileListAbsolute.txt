@@ -1,0 +1,14 @@
+C:\Users\julia\Desktop\SENA\PSP\Memorama\Memorama\Memorama\bin\Debug\Memorama.exe.config
+C:\Users\julia\Desktop\SENA\PSP\Memorama\Memorama\Memorama\bin\Debug\Memorama.exe
+C:\Users\julia\Desktop\SENA\PSP\Memorama\Memorama\Memorama\bin\Debug\Memorama.pdb
+C:\Users\julia\Desktop\SENA\PSP\Memorama\Memorama\Memorama\obj\Debug\Memorama.csprojAssemblyReference.cache
+C:\Users\julia\Desktop\SENA\PSP\Memorama\Memorama\Memorama\obj\Debug\Memorama.Form1.resources
+C:\Users\julia\Desktop\SENA\PSP\Memorama\Memorama\Memorama\obj\Debug\Memorama.Properties.Resources.resources
+C:\Users\julia\Desktop\SENA\PSP\Memorama\Memorama\Memorama\obj\Debug\Memorama.csproj.GenerateResource.cache
+C:\Users\julia\Desktop\SENA\PSP\Memorama\Memorama\Memorama\obj\Debug\Memorama.csproj.CoreCompileInputs.cache
+C:\Users\julia\Desktop\SENA\PSP\Memorama\Memorama\Memorama\obj\Debug\Memorama.exe
+C:\Users\julia\Desktop\SENA\PSP\Memorama\Memorama\Memorama\obj\Debug\Memorama.pdb
+C:\Users\julia\Desktop\SENA\PSP\Memorama\Memorama\Memorama\bin\Debug\Memorama.exe.manifest
+C:\Users\julia\Desktop\SENA\PSP\Memorama\Memorama\Memorama\bin\Debug\Memorama.application
+C:\Users\julia\Desktop\SENA\PSP\Memorama\Memorama\Memorama\obj\Debug\Memorama.exe.manifest
+C:\Users\julia\Desktop\SENA\PSP\Memorama\Memorama\Memorama\obj\Debug\Memorama.application
